@@ -8,7 +8,9 @@
     - [Flip Vertically](#flip-vertically)
     - [Enable Zoom](#enable-zoom)
     - [Zoom](#zoom)
-  - [Running Millumin 5 example](#running-millumin-5-example)
+  - [Running Millumin examples](#running-millumin-examples)
+    - [Millumin 4 + Max 9 example](#millumin-4--max-9-example)
+    - [Millumin 5 example](#millumin-5-example)
     - [Known Issues](#known-issues)
   - [TODO](#todo)
 
@@ -82,7 +84,25 @@ Alternatively flip texture on `y`.
 - Min: `[0, 0]`.
 - Max: `[1000, 1000]`.
 
-## Running Millumin 5 example
+## Running Millumin examples
+
+Copy files:
+
+- Go to [Millumin composition's resources folder](./Millumin//TO%20COPY%20IN%20USER%20LIBRARY/).
+- Copy `ISF-effects/PixelStereo` in `/Users/[YOUR_NAME]/Library/Millumin/ISF-effects`
+- Copy `Scripts/LoopInSpaceClock.js`in `/Users/[YOUR_NAME]/Library/Millumin/Scripts`
+
+### Millumin 4 + Max 9 example
+
+Effect's clock is controlled via a Max patch.
+
+Run [`LoopInSpaceClock.maxpat`](./Max//LoopInSpaceClock.maxpat) in Max 9 (may work in previous versions, untested).
+
+Run [`LoopInSpaceTimed_Millumin4.millumin`](./Millumin//LoopInSpaceTimed_Millumin4.millumin) in Millumin 4.
+
+Max: Go to presentation mode and set x / y speeds.
+
+### Millumin 5 example
 
 Example uses new Millumin features:
 
@@ -90,18 +110,13 @@ Example uses new Millumin features:
 - Internal Signal.
 - Crossfade + Animate transition mode.
 
-Copy files:
-
-- Go to [Millumin composition's resources folder](./Millumin//TO%20COPY%20IN%20USER%20LIBRARY/).
-- Copy `IFF-effects/PixelStereo` in `/Users/[YOUR_NAME]/Library/Millumin/ISF-effects`
-- Copy `Scripts/LoopInSpaceClock.js`in `/Users/[YOUR_NAME]/Library/Millumin/Scripts`
-
 Run [`LoopInSPaceTimed.millumin`](./Millumin//LoopInSpaceTimed.millumin) in Millumin 5.
 
 ### Known Issues
 
 - [ ] OSC mode: transitions between positive and negative values of speed lag.
 - [ ] Internal Signal mode:negative `y` speed not taken into account.
+- [ ] Launching a column directly doesn't take Internal Signal of speed into account: it is taken into account only when moving to a new column.
 
 ## TODO
 
