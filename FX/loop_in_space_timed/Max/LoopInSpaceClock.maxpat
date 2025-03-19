@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 676.0, 321.0, 965.0, 832.0 ],
+		"rect" : [ 473.0, 187.0, 362.0, 195.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -155,7 +155,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-17",
-					"increment" : 0.0217,
+					"increment" : 0.002,
 					"maxclass" : "incdec",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -375,7 +375,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-22",
-					"increment" : 0.042,
+					"increment" : 0.008,
 					"maxclass" : "incdec",
 					"numinlets" : 1,
 					"numoutlets" : 1,
