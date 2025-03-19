@@ -9,6 +9,7 @@
     - [Enable Zoom](#enable-zoom)
     - [Zoom](#zoom)
   - [Running Millumin 5 example](#running-millumin-5-example)
+    - [Known Issues](#known-issues)
   - [TODO](#todo)
 
 ## ISF Inputs
@@ -95,6 +96,11 @@ Copy files:
 - Copy `Scripts/LoopInSpaceClock.js`in `/Users/[YOUR_NAME]/Library/Millumin/Scripts`
 
 Run [`LoopInSPaceTimed.millumin`](./Millumin//LoopInSpaceTimed.millumin) in Millumin 5.
+
+### Known Issues
+
+- [ ] OSC mode: transitions between positive and negative values of speed lag.
+- [ ] Internal Signal mode:negative `y` speed not taken into account.
 
 ## TODO
 
