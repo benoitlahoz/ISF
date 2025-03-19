@@ -88,6 +88,7 @@ Example uses new Millumin features:
 
 - Javascript.
 - Internal Signal.
+- Crossfade + Animate transition mode.
 
 Copy files:
 
