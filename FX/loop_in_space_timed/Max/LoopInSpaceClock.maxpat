@@ -155,7 +155,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-17",
-					"increment" : 0.002,
+					"increment" : 0.003,
 					"maxclass" : "incdec",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -375,7 +375,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-22",
-					"increment" : 0.008,
+					"increment" : -0.003,
 					"maxclass" : "incdec",
 					"numinlets" : 1,
 					"numoutlets" : 1,
